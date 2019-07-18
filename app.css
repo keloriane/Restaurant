@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  z-index: -2;
+  position: relative;
+}
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.frame {
+  border: 1px solid #C89446;
+  border-radius: 2px;
+  width: 350px;
+  height: 425px;
+  position: absolute;
+  top: -21px;
+  left: 65px;
+  z-index: -1;
+}
+
+.line {
+  height: 1px;
+  width: 100px;
+  background-color: #C89446;
+}
+
+h3 {
+  font-family: 'Pinyon Script', cursive;
+  color: #C89446;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 100;
+}
+
+h4 {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  color: #383838;
+  text-transform: uppercase;
+}
+
+.text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text {
+  width: 445px;
+}
+
+.text p {
+  color: #6F6F6F;
+}
